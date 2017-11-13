@@ -34,7 +34,7 @@ p {
 .title::before {
    content: '';
    position: absolute;
-   top: 0;
+   top: -7px;
    left: 0;
    display: block;
    background-color: #e1e6ea;
@@ -152,7 +152,7 @@ p {
    height: 250px;
 }
 
-.section-about-us {
+.section-body {
    display: flex;
-   
+
 }
