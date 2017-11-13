@@ -21,6 +21,7 @@ p {
 .title-main {
    font-family: 'Quattrocento Sans', sans-serif;
    font-size: 36px;
+   line-height: 38px;
    text-transform: uppercase;
 }
 .title {
@@ -41,7 +42,7 @@ p {
    height: 34px;
 }
 .subtitle {
-   
+
 }
 .inverse {
    color: #fff;
@@ -149,4 +150,9 @@ p {
    max-width: 60%;
    min-width: 400px;
    height: 250px;
+}
+
+.section-about-us {
+   display: flex;
+   
 }
