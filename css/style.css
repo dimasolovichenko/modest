@@ -1,0 +1,121 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
+}
+p {
+   margin: 34px 0;
+}
+.wrapper {
+	overflow: hidden;
+	position: relative;
+}
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.title-main {
+   font-family: 'Quattrocento Sans', sans-serif;
+   font-size: 36px;
+   text-transform: uppercase;
+}
+
+.inverse {
+   color: #fff;
+}
+.active {
+   color: #23b7a4 !important;
+   border:2px solid #23b7a4 !important;
+}
+
+.button {
+   display: inline-block;
+   text-decoration: none;
+   font-family: 'Quattrocento Sans', sans-serif;
+   font-size: 14px;
+   text-transform: uppercase;
+   border: 2px solid #fff;
+   border-radius: 5px;
+   color: #fff;
+   padding: 14px 20px;
+   margin: 5px;
+}
+.button:hover {
+   background-color: #23b7a4;
+   border-color: #23b7a4;
+}
+
+.header {
+   position: relative;
+   background-color: rgb(29, 33, 38);
+   min-height: 80px;
+   display: flex;
+   align-items: center;
+}
+.header .container {
+   display: flex;
+   flex-wrap; wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+.nav-header .nav-item {
+   display: inline-block;
+   font-size: 14px;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #a4aead;
+   padding: 8px 10px;
+   margin-left: 10px;
+   border: 2px solid transparent;
+   border-radius: 5px;
+}
+.nav-header .nav-item:last-child {
+   margin-right: -12px;
+}
+.nav-header .nav-item:hover {
+   border-color: #a4aead;
+}
+
+.section {
+   padding: 90px 0 100px 0;
+}
+.section-main {
+   position: relative;
+   min-height: 600px;
+}
+.section-main .background {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-image: url('../images/bg-main.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.section-main .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+	background-color: #3a454d;
+   opacity: 0.8;
+}
+.section-main .foreground {
+   position: relative;
+}
+.section-main .container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+.slider-item {
+   max-width: 60%;
+   min-width: 400px;
+}
