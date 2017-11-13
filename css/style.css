@@ -86,28 +86,33 @@ p {
    position: relative;
    min-height: 600px;
 }
-.section-main .background {
+.background {
    position: absolute;
    top: 0;
    left: 0;
    right: 0;
    bottom: 0;
+}
+.overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+.foreground {
+   position: relative;
+}
+
+.section-main .background {
    background-image: url('../images/bg-main.jpg');
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
 }
 .section-main .overlay {
-   position: absolute;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
 	background-color: #3a454d;
    opacity: 0.8;
-}
-.section-main .foreground {
-   position: relative;
 }
 .section-main .container {
    display: flex;
@@ -116,6 +121,8 @@ p {
    align-items: flex-start;
 }
 .slider-item {
+   display: block;
+   vertical-align: top;
    max-width: 60%;
    min-width: 400px;
 }
