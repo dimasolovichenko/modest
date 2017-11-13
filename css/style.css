@@ -4,6 +4,7 @@
 body {
    font-family: 'Open Sans', sans-serif;
    font-size: 16px;
+   line-height: 20px;
 }
 p {
    margin: 34px 0;
@@ -22,7 +23,26 @@ p {
    font-size: 36px;
    text-transform: uppercase;
 }
-
+.title {
+   font-family: 'Quattrocento Sans', sans-serif;
+   font-size: 36px;
+   text-transform: uppercase;
+   padding-left: 20px;
+   position: relative;
+}
+.title::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: block;
+   background-color: #e1e6ea;
+   width: 8px;
+   height: 34px;
+}
+.subtitle {
+   
+}
 .inverse {
    color: #fff;
 }
@@ -85,6 +105,9 @@ p {
 .section-main {
    position: relative;
    min-height: 600px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 .background {
    position: absolute;
@@ -125,4 +148,5 @@ p {
    vertical-align: top;
    max-width: 60%;
    min-width: 400px;
+   height: 250px;
 }
